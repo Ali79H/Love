@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>My Soul❤️</title>
+  </head>
+  <body style="
+  background-image: url(imgs/photo_2024-02-11_23-09-00.jpg);
+  background-size: 110% 100%;"
+  class="bg-no-repeat" >
+    <section
+      id="section"
+      class="w-screen h-screen flex justify-end items-center flex-col "
+    >
+      <div class="h-96 flex flex-row   ">
+        
+        <button onclick="play()" class="w-36 h-7 ml-20 mr-20">
+          <img id="play" src="imgs/play.svg" alt="" />
+        </button>
+        <button id="right" onclick="changeTextWithFadeR()" class="w-7 h-7 mt-30">
+          <img src="imgs/right.svg" alt="" />
+        </button>
+      </div>
+      <div class="flex justify-center items-end h-20 ">
+        <audio class="w-screen"  id="myAudio" controls src="./محدثه.m4a"></audio>
+        <p id="change" class=" text-5xl max-w-xl leading-normal "></p>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

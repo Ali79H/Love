@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: valen;
+  
+    src: url(./ValentineCute.ttf);
+}
+*{
+    font-family: valen;
+}
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+ display: none;
+}
+
+/* Customize the timing line */
+audio::-webkit-media-controls-timeline {
+  width: 100%;
+}
+
+/* Remove the mute button */
+audio::-webkit-media-controls-mute-button {
+  display: none;
+}
